@@ -6,6 +6,7 @@ import java.util.Iterator;
  * MyVector2는 MyVector를 상속하고 있으므로 컴파일을 하려면 MyVector가 필요하다.
  */
 public class MyVector2 extends MyVector implements Iterator {
+    //앞으로 읽어 올 요소의 위치를 저장
     int cursor = 0;
     int lastRet = -1;
 
