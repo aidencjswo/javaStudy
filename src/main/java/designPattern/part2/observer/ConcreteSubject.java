@@ -2,17 +2,17 @@ package designPattern.part2.observer;
 
 public class ConcreteSubject implements Subject{
     @Override
-    public void registerObserver() {
+    public void registerObserver(Observer o) {
 
     }
 
     @Override
-    public void removeObserver() {
+    public void removeObserver(Observer o) {
 
     }
 
     @Override
-    public void notifyObserver() {
+    public void notifyObservers() {
 
     }
 }
